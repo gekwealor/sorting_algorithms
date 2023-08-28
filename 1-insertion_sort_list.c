@@ -1,7 +1,7 @@
 #include "sort.h"
 
-/*
- * swap_nodes - Must swap two nodes in a listint_t doubly-linked list
+/**
+ * swap_nodes - must Swap two nodes in a listint_t doubly-linked list.
  * @k: The head of the doubly-linked list pointer.
  * @n1: A pointer to the first node to swap.
  * @n2: Swapped second node is a must.
