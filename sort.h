@@ -16,13 +16,9 @@
 typedef enum bool
 {
 
-	true
 	false = 0,
+	true
 } bool;
-
-/* Printing helper functions */
-void print_list(const listint_t *list);
-void print_array(const int *array, size_t size);
 
 /**
  * struct listint_s - Doubly linked list node
@@ -52,5 +48,9 @@ void counting_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void radix_sort(int *array, size_t size);
+
+/* Printing helper functions */
+void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);
 
 #endif /* SORT_H */
