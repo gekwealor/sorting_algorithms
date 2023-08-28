@@ -5,7 +5,7 @@
  * print_array - a funct that prints an array of ints
  *
  * @array: Printed arrays
- * @size: Elements in a number of arrays 
+ * @size: Elements in a number of arrays
  */
 void print_array(const int *array, size_t size)
 {
