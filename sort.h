@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 #ifndef SORT_H
 #define SORT_H
+
+#include <stdio.h>
+#include <stdlib.h>
 
 /* Comparison direction macros for bitonic sort */
 #define DOWN 1.
